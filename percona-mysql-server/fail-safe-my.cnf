@@ -67,7 +67,7 @@ table-open-cache               = 2048
 # This replaces the startup script and checks MyISAM tables if needed
 # the first time they are touched
 myisam-recover         = FORCE,BACKUP
-max_connections        = 50
+max_connections        = 5000
 #table_cache            = 64
 #thread_concurrency     = 10
 #
